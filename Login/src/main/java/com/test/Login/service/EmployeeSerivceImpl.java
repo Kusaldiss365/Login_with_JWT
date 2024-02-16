@@ -57,7 +57,7 @@ public class EmployeeSerivceImpl implements EmployeeService {
                 return new LoginResponse("password Not Match", false);
             }
         }else {
-            return new LoginResponse("Email not exits", false);
+            return new LoginResponse("Email not exist", false);
         }
 
     }
